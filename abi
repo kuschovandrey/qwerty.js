@@ -1,2 +1,6 @@
 "github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
+err = VerifyProof(l2Header.Root, p)
+	if err != nil {
+		return ProvenWithdrawalParameters{}, err
+	}
