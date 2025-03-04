@@ -1,0 +1,4 @@
+ev, err := ParseMessagePassed(receipt)
+	if err != nil {
+		return ProvenWithdrawalParameters{}, err
+	}
