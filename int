@@ -1,2 +1,5 @@
 type HeaderClient interface {
 	HeaderByNumber(context.Context, *big.Int) (*types.Header, error)
+p, err := proofCl.GetProof(ctx, predeploys.L2ToL1MessagePasserAddr, []string{slot.String()}, l2Header.Number)
+	if err != nil {
+		return ProvenWithdrawalParameters{}, err
