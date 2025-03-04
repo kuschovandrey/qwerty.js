@@ -1,0 +1,2 @@
+l2BlockNumber := new(big.Int).SetBytes(latestGame.ExtraData[0:32])
+	l2OutputIndex := latestGame.Index
