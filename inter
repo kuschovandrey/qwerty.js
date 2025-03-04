@@ -1,0 +1,3 @@
+type ReceiptClient interface {
+	TransactionReceipt(context.Context, common.Hash) (*types.Receipt, error)
+}
