@@ -1,2 +1,7 @@
 type HeaderClient interface {
 	HeaderByNumber(context.Context, *big.Int) (*types.Header, error)
+DrippieAddressFlag = &cli.StringFlag{
+		Name:     "drippie-address",
+		Usage:    "The address of the drippie contract",
+		EnvVars:  prefixEnvVars("DRIPPIE_ADDRESS"),
+		Required: true,
